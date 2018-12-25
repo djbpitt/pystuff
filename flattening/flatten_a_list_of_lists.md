@@ -39,5 +39,5 @@ The splat takes a list as input and expands it into positional arguments in a fu
 flattened = itertools.chain.from_iterable(forest)
 ```
 
-Also produces an iterator, as above.
+This assumes that the argument is an iterable, so we don’t need the star to unpack it into its components. Also produces an iterator, as above.
 
